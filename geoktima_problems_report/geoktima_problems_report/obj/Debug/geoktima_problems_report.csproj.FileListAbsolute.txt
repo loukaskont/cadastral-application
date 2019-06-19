@@ -1,0 +1,7 @@
+c:\users\kloukas\documents\visual studio 2013\Projects\geoktima_problems_report\geoktima_problems_report\bin\Debug\geoktima_problems_report.exe.config
+C:\Users\kloukas\Documents\Visual Studio 2013\Projects\geoktima_problems_report\geoktima_problems_report\bin\Debug\geoktima_problems_report.exe
+C:\Users\kloukas\Documents\Visual Studio 2013\Projects\geoktima_problems_report\geoktima_problems_report\bin\Debug\geoktima_problems_report.pdb
+C:\Users\kloukas\Documents\Visual Studio 2013\Projects\geoktima_problems_report\geoktima_problems_report\bin\Debug\Mono.Security.dll
+C:\Users\kloukas\Documents\Visual Studio 2013\Projects\geoktima_problems_report\geoktima_problems_report\bin\Debug\Npgsql.dll
+C:\Users\kloukas\Documents\Visual Studio 2013\Projects\geoktima_problems_report\geoktima_problems_report\obj\Debug\geoktima_problems_report.exe
+C:\Users\kloukas\Documents\Visual Studio 2013\Projects\geoktima_problems_report\geoktima_problems_report\obj\Debug\geoktima_problems_report.pdb
