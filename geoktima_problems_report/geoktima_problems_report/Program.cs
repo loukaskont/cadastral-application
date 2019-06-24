@@ -58,8 +58,8 @@ namespace geoktima_problems_report
                         System.Net.Mail.Attachment attachment;
                         attachment = new System.Net.Mail.Attachment(myclass.currentDate + ".zip");
                         ServicePointManager.ServerCertificateValidationCallback = new RemoteCertificateValidationCallback(delegate { return true; });
-                        String emailFrom = "stats@net.geoanalysis.gr", password = "stats@mail.server";
-                        SmtpClient SmtpServer = new SmtpClient("net.geoanalysis.gr");
+                        String emailFrom = "test@test.gr", password = "test";
+                        SmtpClient SmtpServer = new SmtpClient("test.gr");
                         var mail = new MailMessage();
                         mail.From = new MailAddress(emailFrom);
                         mail.To.Add(emailsTo[emailIndex]);
