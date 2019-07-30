@@ -17,7 +17,7 @@ namespace geoktima_problems_report
     {
         public String reportDir = "";
         public String currentDate = "";
-        String User_Id = "viewer", Password = "1";
+        String User_Id = "vijfkdj", Password = "sdsds";
         public String currentDataBase = "";
         String connstring = "";
         public List<String> databaseList = new List<String>() { "gkt118", "gkt207", "gkt210", "gkt501", "gkt505", "gkt507" };
@@ -58,7 +58,7 @@ namespace geoktima_problems_report
             DataTable dt = new DataTable();
             try
             {
-                connstring = "User Id=" + User_Id + ";Password=" + Password + ";Server=192.168.22.21;Port=5432;Database=" + currentDataBase + ";Pooling=false;Preload Reader=true;CommandTimeout=10000";
+                connstring = "User Id=" + User_Id + ";Password=" + Password + ";Server=192.168.26.34;Port=5432;Database=" + currentDataBase + ";Pooling=false;Preload Reader=true;CommandTimeout=10000";
                 NpgsqlConnection conn = new NpgsqlConnection(connstring);
                 conn.Open();
                 string sql = @"select appl_id, g_eis_id, g_delivery_id, appl_sub_date, appl_pro_date, entry_date,
@@ -118,7 +118,7 @@ namespace geoktima_problems_report
             DataTable dt = new DataTable();
             try
             {
-                connstring = "User Id=" + User_Id + ";Password=" + Password + ";Server=192.168.22.21;Port=5432;Database=" + currentDataBase + ";Pooling=false;Preload Reader=true;CommandTimeout=10000";
+                connstring = "User Id=" + User_Id + ";Password=" + Password + ";Server=192.168.24.27;Port=5432;Database=" + currentDataBase + ";Pooling=false;Preload Reader=true;CommandTimeout=10000";
                 NpgsqlConnection conn = new NpgsqlConnection(connstring);
                 conn.Open();
                 string sql = @"select appl_id, appl_sub_date, appl_pro_date, entry_date, g_eis_id,
@@ -178,7 +178,7 @@ namespace geoktima_problems_report
             DataTable dt = new DataTable();
             try
             {
-                connstring = "User Id=" + User_Id + ";Password=" + Password + ";Server=192.168.22.21;Port=5432;Database=" + currentDataBase + ";Pooling=false;Preload Reader=true;CommandTimeout=10000";
+                connstring = "User Id=" + User_Id + ";Password=" + Password + ";Server=192.168.24.27;Port=5432;Database=" + currentDataBase + ";Pooling=false;Preload Reader=true;CommandTimeout=10000";
                 NpgsqlConnection conn = new NpgsqlConnection(connstring);
                 conn.Open();
                 string sql = @"select s.summary_id,s.cover_id,c.cover_date,doc_type_descr, sum_doc_num,sum_doc_date,s.sum_issuer_type, trim(coalesce(surname,'') || ' ' || coalesce(name, '') || coalesce(legal_name,'') ||' (' || coalesce(issuer_subcat_descr, '') || '-' || coalesce(seat, '') || ')' || '-'||di.g_issuer_id) as issuer_name,
@@ -236,7 +236,7 @@ namespace geoktima_problems_report
             DataTable dt = new DataTable();
             try
             {
-                connstring = "User Id=" + User_Id + ";Password=" + Password + ";Server=192.168.22.21;Port=5432;Database=" + currentDataBase + ";Pooling=false;Preload Reader=true;CommandTimeout=10000";
+                connstring = "User Id=" + User_Id + ";Password=" + Password + ";Server=192.168.25.27;Port=5432;Database=" + currentDataBase + ";Pooling=false;Preload Reader=true;CommandTimeout=10000";
                 NpgsqlConnection conn = new NpgsqlConnection(connstring);
                 conn.Open();
                 string sql = @"select s.summary_id,s.cover_id,c.cover_date,doc_type_descr, sum_doc_num,sum_doc_date,s.sum_issuer_type, trim(coalesce(surname,'') || ' ' || coalesce(name, '') || coalesce(legal_name,'') ||' (' || coalesce(issuer_subcat_descr, '') || '-' || coalesce(seat, '') || ')' || '-'||di.g_issuer_id) as issuer_name,
@@ -294,7 +294,7 @@ namespace geoktima_problems_report
             DataTable dt = new DataTable();
             try
             {
-                connstring = "User Id=" + User_Id + ";Password=" + Password + ";Server=192.168.22.21;Port=5432;Database=" + currentDataBase + ";Pooling=false;Preload Reader=true;CommandTimeout=10000";
+                connstring = "User Id=" + User_Id + ";Password=" + Password + ";Server=192.168.82.26;Port=5432;Database=" + currentDataBase + ";Pooling=false;Preload Reader=true;CommandTimeout=10000";
                 NpgsqlConnection conn = new NpgsqlConnection(connstring);
                 conn.Open();
                 string sql = @"SELECT i.g_eis_id, i.g_prop_id, i.g_doc_id, r.g_right_id, i.g_ben_id,
