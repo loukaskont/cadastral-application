@@ -1,2 +1,2 @@
 # cadastral-application
-cadastral application C# .net winforms
+application C# .net winforms
