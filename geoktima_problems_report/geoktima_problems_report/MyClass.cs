@@ -20,7 +20,7 @@ namespace geoktima_problems_report
         String User_Id = "vijfkdj", Password = "sdsds";
         public String currentDataBase = "";
         String connstring = "";
-        public List<String> databaseList = new List<String>() { "gkt118", "gkt207", "gkt210", "gkt501", "gkt505", "gkt507" };
+        public List<String> databaseList = new List<String>() { "gkt001", "gkt002", "gkt003", "gkt004", "gkt005", "gkt007" };
         public String errorLogsString = "", reportLogsString = "";
         public void databaseReadAndWriteToCsvs()
         {
